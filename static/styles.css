@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Zeyada&v1);
+@import url(http://fonts.googleapis.com/css?family=Droid|Sans&v1);
+
 body {
   padding:2em;
   margin:1em;
@@ -7,3 +10,17 @@ body {
   font-family: 'Droid Sans', sans-serif;
 }
 
+a {
+  color:#0F0;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Zeyada;
+  font-size: 300%;
+  font-weight: 300;
+}
