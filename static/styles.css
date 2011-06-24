@@ -1,0 +1,9 @@
+body {
+  padding:2em;
+  margin:1em;
+  border:1px dashed green;
+  background-color:#000;
+  color:#EEC;
+  font-family: 'Droid Sans', sans-serif;
+}
+
