@@ -2,17 +2,19 @@
 @import url(http://fonts.googleapis.com/css?family=Droid|Sans&v1);
 
 body {
-  padding:2em;
-  margin:1em;
-  border:1px dashed green;
   background-color:#000;
   color:#EEC;
   font-family: 'Droid Sans', sans-serif;
 }
 
 a {
-  color:#0F0;
   text-decoration:none;
+  color:#00CC00;
+}
+
+a:visited {
+  color:#009900;
+  text-decoration: line-through;
 }
 
 a:hover {
@@ -26,6 +28,10 @@ h1 {
 }
 
 .logo {
-    float: right;
-    clear: right;
+  float: right;
+  clear: right;
+}
+
+ul {
+  list-style-type: circle;
 }
