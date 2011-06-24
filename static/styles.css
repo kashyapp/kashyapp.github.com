@@ -24,3 +24,8 @@ h1 {
   font-size: 300%;
   font-weight: 300;
 }
+
+logo {
+    float: right;
+    clear: right;
+}
