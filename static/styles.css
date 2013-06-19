@@ -2,8 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Droid|Sans&v1);
 
 body {
-  background-color:#000;
-  color:#EEC;
+  background-color:#fff;
+  color:#33C;
   font-family: 'Droid Sans', sans-serif;
 }
 
@@ -23,15 +23,36 @@ a:hover {
 
 h1 {
   font-family: Zeyada;
-  font-size: 300%;
-  font-weight: 300;
+  font-size: 400%;
+  font-weight: 200;
+  text-align: center;
+  margin: 0;
 }
 
 .logo {
+  display: none;
   float: right;
   clear: right;
 }
 
+#pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border: 5px solid #fff;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  background-image: url('kashyap-venice.jpg');
+  position: absolute;
+  right: 0;
+  margin: 20px;
+}
+
 ul {
-  list-style-type: circle;
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "\25C7  ";
 }
