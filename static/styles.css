@@ -2,19 +2,31 @@
 @import url(http://fonts.googleapis.com/css?family=Droid|Sans&v1);
 
 body {
-  background-color:#fff;
-  color:#33C;
   font-family: 'Droid Sans', sans-serif;
+  margin: 0px auto;
+  padding: 0;
+  height: 100%;
+  background-color: rgba(40, 0, 80, 0.1);
+  font-size: 14px;
+}
+
+#container {
+  background-color: #fff;
+  min-height: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  margin: 0px auto;
+  padding: 0;
+  position: relative;
+  width: 800px;
 }
 
 a {
   text-decoration:none;
-  color:#00CC00;
+  color: #BB3333;
 }
 
 a:visited {
-  color:#009900;
-  text-decoration: line-through;
+  color: #990033;
 }
 
 a:hover {
@@ -26,7 +38,11 @@ h1 {
   font-size: 400%;
   font-weight: 200;
   text-align: center;
-  margin: 0;
+  margin: 0 0 40px 0;
+}
+
+#bannertext {
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -45,14 +61,15 @@ h1 {
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
   background-image: url('kashyap-venice.jpg');
   position: absolute;
+  top: 50px;
   right: 0;
   margin: 20px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-ul li::before {
-  content: "\25C7  ";
+#footer {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
 }
