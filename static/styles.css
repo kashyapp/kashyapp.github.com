@@ -6,7 +6,7 @@ body {
   margin: 0px auto;
   padding: 0;
   height: 100%;
-  background-color: rgba(40, 0, 80, 0.1);
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=") repeat rgba(40, 0, 80, 0.1);
   font-size: 14px;
 }
 
