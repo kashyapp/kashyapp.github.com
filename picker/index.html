@@ -18,6 +18,7 @@
       function createPicker() {
         var picker = new google.picker.PickerBuilder().
             addView(google.picker.ViewId.IMAGE_SEARCH).
+            addView(google.picker.ViewId.DOCS).
             setDeveloperKey(developerKey).
             setCallback(pickerCallback).
             build();
